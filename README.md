@@ -36,10 +36,10 @@ This is a file sharing application built using the MERN (MongoDB, Express.js, Re
    npm install
    ```
 4. Set up environment variables:
-   - Create a `.env` file in the `server` directory.
+   - Create a `.env` file in the `backend` directory.
    - Add the following variables:
      ```
-     PORT=5000
+     PORT=8000
      MONGODB_URI=your_mongodb_connection_string
      JWT_SECRET=your_jwt_secret
      ```
