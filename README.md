@@ -45,13 +45,13 @@ This is a file sharing application built using the MERN (MongoDB, Express.js, Re
      ```
 5. Start the backend server:
    ```
-   cd server
+   cd backend
    npm start
    ```
 6. Start the frontend:
    ```
-   cd client
-   npm start
+   cd frontend
+   npm run dev
    ```
 
 ## Contributing
