@@ -2,10 +2,12 @@
 # MERN Stack File Sharing Application(eazzyshare)
 
 This is a file sharing application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. Users can upload, download, and manage files securely.
+![image](https://github.com/Nandu-ramineni/file_sharing/assets/123319320/bac75757-c163-41fd-b778-d4e939754c5a)
+
+![image](https://github.com/Nandu-ramineni/file_sharing/assets/123319320/1b7c5b41-28ce-4b66-9ea8-efb1d9105ae1)
 
 ## Features
 
-- User authentication: Users can sign up, log in, and log out securely.
 - File uploading: Users can upload files to the server.
 - File downloading: Users can download files from the server.
 - File management: Users can view, rename, delete files they uploaded.
