@@ -24,7 +24,7 @@ const App = () => {
         setCopy('')
       },3000)
     })
-  };
+  }; 
   useEffect(() => {
     const getImage = async () => {
       if (file) {
