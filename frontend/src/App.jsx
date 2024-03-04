@@ -3,7 +3,6 @@ import { uploadFile } from "./services/api";
 import img from './Cloud.png';
 import { FaCloudUploadAlt } from "react-icons/fa";
 import { MdOutlineContentCopy } from "react-icons/md";
-
 const App = () => {
   const fileInput = useRef();
   const [file, setFile] = useState(null);
@@ -13,7 +12,6 @@ const App = () => {
   const changeFile = (e) => {
     setFile(e.target.files[0]);
   };
-
   const onUpload = () => {
     fileInput.current.click();
   };
@@ -39,7 +37,6 @@ const App = () => {
     };
     getImage();
   }, [file]);
-
   return (
     <div id="box" className="lg:flex justify-center items-center gap-2 m-auto w-1/2 mt-36 sm:block ">
       <div className="flex justify-center items-center m-auto h-1/2 w-1/2  ">
