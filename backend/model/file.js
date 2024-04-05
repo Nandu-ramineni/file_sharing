@@ -1,4 +1,4 @@
-import e from 'express'
+
 import mongoose from 'mongoose'
 const fileSchema = new mongoose.Schema({
     path: {
@@ -15,5 +15,5 @@ const fileSchema = new mongoose.Schema({
         default: 0
     }
 })
-const File=mongoose.model('file',fileSchema)
-export default File;
+const File=mongoose.model('File',fileSchema)
+export default File
