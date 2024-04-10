@@ -1,7 +1,7 @@
 // api.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://file-sharing-l5lj.onrender.com';
 
 export const uploadFile = async (data) => {
     try {
